@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:Main" 
+    x:Class="Main.MainPage">
+    
+    <ContentPage.Content>
+        <StackLayout Padding="30" Spacing="10" VerticalOptions="Center">
+                <Button Text="Enviar" x:Name="btnEnviar"
+                        Clicked="btnEnviar_Clicked" />
+                <Button Text="Configurações" x:Name="btnConfig"
+                        Clicked="btnConfig_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
